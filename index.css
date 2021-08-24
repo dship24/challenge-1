@@ -1,13 +1,4 @@
-/* 
-   Use the following properties
-   to fix the alignment and white
-   space issues on the rulesets
-   below this comment.
-   
-   margin, padding, text-align
-   
-*/
-/*------------The Original Code-------------
+------------The Original Code-------------
 body {
 
 }
@@ -26,13 +17,13 @@ h3 {
 p.desc {
 
 }
--------------- My Code--------------------*/
+-------------- My Code--------------------
 body {
-  
+  margin-left:2em;
+  margin-right: 2em;
 }
 .content {
-  padding-left: 100px;
-  padding-right: 100px;
+   padding: 1em;
 }
 
 p.date {
@@ -44,4 +35,24 @@ h3 {
 
 p.desc {
   text-align: center;
+}
+----------------Instructor's Code------------------
+body {
+    padding: 2em;
+}
+.content {
+    padding: 1em;
+}
+
+p.date {
+    text-align: left;
+    margin: 0;
+}
+
+h3 {
+
+}
+
+p.desc {
+    margin-bottom: 0;
 }
